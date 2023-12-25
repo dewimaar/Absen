@@ -1,0 +1,49 @@
+/* sidebar.css */
+
+#sidebarMenu {
+    background-color: rgba(37, 36, 89, 1) !important;
+    color: white !important;
+    padding-left: 10px; /* Atur lebar kiri background */
+    padding-right: 10px;
+    border: 1px solid rgba(37, 36, 89, 1);
+}
+
+#sidebarMenu a.nav-link {
+    color: white !important;
+    border-radius:8px;
+    margin-bottom: 20px;
+    
+}
+
+#sidebarMenu a.nav-link.active {
+    background-color: white !important;
+    color: rgba(37, 36, 89, 1) !important;
+}
+#sidebarMenu a.nav-link:hover {
+    background-color: white !important;
+    color: rgba(37, 36, 89, 1) !important;
+}
+#sidebarMenu a.nav-link.active .align-text-bottom {
+    color: rgba(37, 36, 89, 1) !important;
+}
+#sidebarMenu a.nav-link:hover .align-text-bottom {
+    color: rgba(37, 36, 89, 1) !important;
+}
+.align-text-bottom {
+    color: white !important;
+}
+#sidebarMenu form button {
+    background-color: white;
+    color: red !important;
+    border: 2px solid white !important;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#sidebarMenu form button:hover {
+    background-color: red !important;
+    color: white !important;
+}
+

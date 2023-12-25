@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+}
+.card {
+    border-radius: 11px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: #385C26;
+    color: #fff;
+}
+.card-body {
+    border-radius: 11px;
+    background: #385C26;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#card2 {
+    background: #CDAD04;
+}
+#card3 {
+    background: #942525;
+}
